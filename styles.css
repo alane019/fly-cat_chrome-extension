@@ -1,0 +1,89 @@
+body {
+  background: url('http://etverse.com/web-app-demo/a/scc.gif'); 
+ background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+ background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+}
+
+body background {
+ /*opacity: .2;  */ 
+}
+
+#
+
+#closeButton {
+	 position: relative;
+    float: right;
+	color: gray;
+	 top: -80px;
+   
+    font-family: arial; 
+   font-size: 3rem; 
+}
+
+
+
+#catBox {
+	opacity: .8;
+}
+
+#quoteBox {
+color: #223d88 !important;
+	
+
+}
+
+#author {
+font-size = .78rem; 
+margin-left = 20px;
+
+}
+
+
+#masthead,
+#primary {
+  /* -webkit-filter: invert(100%); */
+ /* filter: invert(100%); */
+  background-color: #fff;
+  padding: 20px !important;
+}
+#masthead {
+  background: none;
+}
+#masthead img, #primary img {
+  /* -webkit-filter: invert(100%);
+  filter: invert(100%);
+  */
+}
+
+   .m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+
+
+.fade-in {
+  -webkit-animation: fadeIn .2s ease-in 1 forwards;
+  animation: fadeIn .2s ease-in 1 forwards;
+  opacity: 0;
+}
+
+
+
+
+@-webkit-keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+*::selection {
+  background: rgba(114, 224, 209, .5); /* WebKit/Blink Browsers */
+}
